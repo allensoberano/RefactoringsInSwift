@@ -1,4 +1,4 @@
-# RefactoringsInSwift
+# Refactorings In Swift
 
  I created these Swift examples as I was reading Martin Fowler's Book: [Refactoring](https://amzn.to/3OwHvzD)
  
