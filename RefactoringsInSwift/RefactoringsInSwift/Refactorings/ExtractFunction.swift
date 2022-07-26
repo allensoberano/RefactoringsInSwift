@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ExtractFunction {
+struct PreExtractFunction {
 
     func printOwing(invoice: Invoice){
         var invoice = invoice
@@ -39,7 +39,7 @@ struct ExtractFunction {
 }
 
 // MARK: - 1. Refactored with Extracted Functions -
-struct RefactoredExtractFunctionNoVariablesOutOfScope {
+struct ExtractFunctionNoVariablesOutOfScope {
 
     func printOwing(invoice: Invoice){
         var invoice = invoice
@@ -78,7 +78,7 @@ struct RefactoredExtractFunctionNoVariablesOutOfScope {
 }
 
 // MARK: - 2. Refactored with Extracted Functions Using Local Variables -
-struct RefactoredExtractFunctionUsingLocalVariables {
+struct ExtractFunctionUsingLocalVariables {
 
     func printOwing(invoice: Invoice){
         let dateFormatter = DateFormatter()
@@ -119,7 +119,7 @@ struct RefactoredExtractFunctionUsingLocalVariables {
 }
 
 // MARK: - 3. Refactored with Extracted Functions Reassigning Local Variable -
-struct RefactoredExtractFunctionReassigningLocalVariable {
+struct ExtractFunctionReassigningLocalVariable {
 // Used Split Variable & Slide Statments
 
     func printOwing(invoice: Invoice){
@@ -133,7 +133,7 @@ struct RefactoredExtractFunctionReassigningLocalVariable {
     }
 }
 
-extension RefactoredExtractFunctionReassigningLocalVariable {
+extension ExtractFunctionReassigningLocalVariable {
     func printBanner() {
         print("***********************")
         print("**** Customer Owes ****")

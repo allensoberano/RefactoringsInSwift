@@ -18,6 +18,7 @@
 		9FAC34CD289044C3000F0840 /* RefactoringsInSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC34CC289044C3000F0840 /* RefactoringsInSwiftUITestsLaunchTests.swift */; };
 		9FAC34DA2890452B000F0840 /* ExtractFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC34D92890452B000F0840 /* ExtractFunction.swift */; };
 		9FAC34DE289057AE000F0840 /* ExtractFunctionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC34DD289057AE000F0840 /* ExtractFunctionHelper.swift */; };
+		9FAC34E128906995000F0840 /* InlineFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC34E028906995000F0840 /* InlineFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9FAC34CC289044C3000F0840 /* RefactoringsInSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactoringsInSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9FAC34D92890452B000F0840 /* ExtractFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractFunction.swift; sourceTree = "<group>"; };
 		9FAC34DD289057AE000F0840 /* ExtractFunctionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractFunctionHelper.swift; sourceTree = "<group>"; };
+		9FAC34E028906995000F0840 /* InlineFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				9FAC34DB2890578F000F0840 /* Helpers */,
+				9FAC34DF28906982000F0840 /* Refactorings */,
 				9FAC34A9289044C0000F0840 /* AppDelegate.swift */,
 				9FAC34AB289044C0000F0840 /* SceneDelegate.swift */,
 				9FAC34AD289044C0000F0840 /* ViewController.swift */,
@@ -111,7 +114,6 @@
 				9FAC34B2289044C2000F0840 /* Assets.xcassets */,
 				9FAC34B4289044C2000F0840 /* LaunchScreen.storyboard */,
 				9FAC34B7289044C2000F0840 /* Info.plist */,
-				9FAC34D92890452B000F0840 /* ExtractFunction.swift */,
 			);
 			path = RefactoringsInSwift;
 			sourceTree = "<group>";
@@ -139,6 +141,15 @@
 				9FAC34DD289057AE000F0840 /* ExtractFunctionHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9FAC34DF28906982000F0840 /* Refactorings */ = {
+			isa = PBXGroup;
+			children = (
+				9FAC34D92890452B000F0840 /* ExtractFunction.swift */,
+				9FAC34E028906995000F0840 /* InlineFunction.swift */,
+			);
+			path = Refactorings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FAC34E128906995000F0840 /* InlineFunction.swift in Sources */,
 				9FAC34AE289044C0000F0840 /* ViewController.swift in Sources */,
 				9FAC34AA289044C0000F0840 /* AppDelegate.swift in Sources */,
 				9FAC34DA2890452B000F0840 /* ExtractFunction.swift in Sources */,
