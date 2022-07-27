@@ -42,16 +42,6 @@ struct InlineFunctionVariationOne {
 // MARK: - Inline Variation 2 -
 //
 
-struct Customer {
-    let name: String
-    let location: String
-    let address: Address
-}
-
-struct Address {
-    let state: String
-}
-
 struct PreInlineFunctionVariationTwo {
     func reportLines(aCustomer: Customer) -> [String] {
         var lines: [String] = []
