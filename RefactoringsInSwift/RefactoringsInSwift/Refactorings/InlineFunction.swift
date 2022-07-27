@@ -45,6 +45,11 @@ struct InlineFunctionVariationOne {
 struct Customer {
     let name: String
     let location: String
+    let address: Address
+}
+
+struct Address {
+    let state: String
 }
 
 struct PreInlineFunctionVariationTwo {
