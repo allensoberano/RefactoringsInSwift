@@ -9,11 +9,6 @@ import Foundation
 
 /// Local variables may help break expression down into something more manageable.
 /// Naming complex piece of logic allows better understanding of what is happening
-struct Order {
-    let quantity: Double
-    let itemPrice: Double
-}
-
 struct PreExtractVariable {
     func price(order: Order) -> Double? {
         //price is base price - quantity discount + shipping
@@ -36,11 +31,6 @@ struct ExtractVariable {
 // MARK: - Example With a Class
 /// In this case, extract the same names, realize that the names apply to the Order as a whole, not just the calculation of the price. Since they apply to the whole order,
 /// extract the names as methods rather than variables.
-
-struct Record {
-    let quantity: Double
-    let itemPrice: Double
-}
 
 class OrderClass {
     let record: Record

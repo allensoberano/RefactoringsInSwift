@@ -20,6 +20,8 @@
 		9FAC34DE289057AE000F0840 /* ExtractFunctionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC34DD289057AE000F0840 /* ExtractFunctionHelper.swift */; };
 		9FAC34E128906995000F0840 /* InlineFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC34E028906995000F0840 /* InlineFunction.swift */; };
 		9FAC34E32890A490000F0840 /* ExtractVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC34E22890A490000F0840 /* ExtractVariable.swift */; };
+		9FAC34E52890B9FA000F0840 /* ExtractVariableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC34E42890B9F9000F0840 /* ExtractVariableHelper.swift */; };
+		9FAC34E72890BA3A000F0840 /* InlineVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC34E62890BA3A000F0840 /* InlineVariable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		9FAC34DD289057AE000F0840 /* ExtractFunctionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractFunctionHelper.swift; sourceTree = "<group>"; };
 		9FAC34E028906995000F0840 /* InlineFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineFunction.swift; sourceTree = "<group>"; };
 		9FAC34E22890A490000F0840 /* ExtractVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractVariable.swift; sourceTree = "<group>"; };
+		9FAC34E42890B9F9000F0840 /* ExtractVariableHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractVariableHelper.swift; sourceTree = "<group>"; };
+		9FAC34E62890BA3A000F0840 /* InlineVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineVariable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				9FAC34DD289057AE000F0840 /* ExtractFunctionHelper.swift */,
+				9FAC34E42890B9F9000F0840 /* ExtractVariableHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 				9FAC34D92890452B000F0840 /* ExtractFunction.swift */,
 				9FAC34E028906995000F0840 /* InlineFunction.swift */,
 				9FAC34E22890A490000F0840 /* ExtractVariable.swift */,
+				9FAC34E62890BA3A000F0840 /* InlineVariable.swift */,
 			);
 			path = Refactorings;
 			sourceTree = "<group>";
@@ -287,12 +293,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FAC34E32890A490000F0840 /* ExtractVariable.swift in Sources */,
+				9FAC34E72890BA3A000F0840 /* InlineVariable.swift in Sources */,
 				9FAC34E128906995000F0840 /* InlineFunction.swift in Sources */,
 				9FAC34AE289044C0000F0840 /* ViewController.swift in Sources */,
 				9FAC34AA289044C0000F0840 /* AppDelegate.swift in Sources */,
 				9FAC34DA2890452B000F0840 /* ExtractFunction.swift in Sources */,
 				9FAC34DE289057AE000F0840 /* ExtractFunctionHelper.swift in Sources */,
 				9FAC34AC289044C0000F0840 /* SceneDelegate.swift in Sources */,
+				9FAC34E52890B9FA000F0840 /* ExtractVariableHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
